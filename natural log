@@ -1,0 +1,9 @@
+import math
+
+num = float(input("enter a mumber: "))
+
+if num <= 0:
+    print("please enter a positive number.")
+else:
+    result =math.log(num)
+    print(f"the natural logarithm of {num} is:{result}")
